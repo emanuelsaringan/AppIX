@@ -17,8 +17,13 @@
 		88BD768618127880001103EC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88BD768518127880001103EC /* Default@2x.png */; };
 		88BD768818127880001103EC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88BD768718127880001103EC /* Default-568h@2x.png */; };
 		88BD768B18127880001103EC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88BD768918127880001103EC /* MainStoryboard.storyboard */; };
-		88BD768E18127880001103EC /* LGMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BD768D18127880001103EC /* LGMasterViewController.m */; };
+		88BD768E18127880001103EC /* LGTopicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BD768D18127880001103EC /* LGTopicListViewController.m */; };
 		88BD769118127880001103EC /* LGDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BD769018127880001103EC /* LGDetailViewController.m */; };
+		88BD769B181288C7001103EC /* topics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88BD769A181288C7001103EC /* topics.plist */; };
+		88BD769E18129080001103EC /* LGTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BD769D18129080001103EC /* LGTopic.m */; };
+		88BD76A11812932C001103EC /* LGSubtopicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BD76A01812932C001103EC /* LGSubtopicListViewController.m */; };
+		88BD76A31812A334001103EC /* 1a.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88BD76A21812A334001103EC /* 1a.xib */; };
+		88BD76A61812AA5A001103EC /* LGSubtopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BD76A51812AA5A001103EC /* LGSubtopic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,10 +41,18 @@
 		88BD768518127880001103EC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		88BD768718127880001103EC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		88BD768A18127880001103EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		88BD768C18127880001103EC /* LGMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGMasterViewController.h; sourceTree = "<group>"; };
-		88BD768D18127880001103EC /* LGMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGMasterViewController.m; sourceTree = "<group>"; };
+		88BD768C18127880001103EC /* LGTopicListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTopicListViewController.h; sourceTree = "<group>"; };
+		88BD768D18127880001103EC /* LGTopicListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTopicListViewController.m; sourceTree = "<group>"; };
 		88BD768F18127880001103EC /* LGDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGDetailViewController.h; sourceTree = "<group>"; };
 		88BD769018127880001103EC /* LGDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGDetailViewController.m; sourceTree = "<group>"; };
+		88BD769A181288C7001103EC /* topics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topics.plist; sourceTree = "<group>"; };
+		88BD769C18129080001103EC /* LGTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGTopic.h; sourceTree = "<group>"; };
+		88BD769D18129080001103EC /* LGTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGTopic.m; sourceTree = "<group>"; };
+		88BD769F1812932C001103EC /* LGSubtopicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSubtopicListViewController.h; sourceTree = "<group>"; };
+		88BD76A01812932C001103EC /* LGSubtopicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSubtopicListViewController.m; sourceTree = "<group>"; };
+		88BD76A21812A334001103EC /* 1a.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = 1a.xib; sourceTree = "<group>"; };
+		88BD76A41812AA5A001103EC /* LGSubtopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSubtopic.h; sourceTree = "<group>"; };
+		88BD76A51812AA5A001103EC /* LGSubtopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSubtopic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +72,8 @@
 		88BD76651812787F001103EC = {
 			isa = PBXGroup;
 			children = (
+				88BD76A71812AFC5001103EC /* View */,
+				88BD76A21812A334001103EC /* 1a.xib */,
 				88BD76771812787F001103EC /* AppIX */,
 				88BD76701812787F001103EC /* Frameworks */,
 				88BD766F1812787F001103EC /* Products */,
@@ -86,13 +101,12 @@
 		88BD76771812787F001103EC /* AppIX */ = {
 			isa = PBXGroup;
 			children = (
+				88BD76991812888E001103EC /* Resources */,
+				88BD769818128875001103EC /* Model */,
+				88BD769718128864001103EC /* Controller */,
 				88BD76801812787F001103EC /* LGAppDelegate.h */,
 				88BD76811812787F001103EC /* LGAppDelegate.m */,
 				88BD768918127880001103EC /* MainStoryboard.storyboard */,
-				88BD768C18127880001103EC /* LGMasterViewController.h */,
-				88BD768D18127880001103EC /* LGMasterViewController.m */,
-				88BD768F18127880001103EC /* LGDetailViewController.h */,
-				88BD769018127880001103EC /* LGDetailViewController.m */,
 				88BD76781812787F001103EC /* Supporting Files */,
 			);
 			path = AppIX;
@@ -110,6 +124,45 @@
 				88BD768718127880001103EC /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88BD769718128864001103EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88BD768C18127880001103EC /* LGTopicListViewController.h */,
+				88BD768D18127880001103EC /* LGTopicListViewController.m */,
+				88BD768F18127880001103EC /* LGDetailViewController.h */,
+				88BD769018127880001103EC /* LGDetailViewController.m */,
+				88BD769F1812932C001103EC /* LGSubtopicListViewController.h */,
+				88BD76A01812932C001103EC /* LGSubtopicListViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		88BD769818128875001103EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88BD769C18129080001103EC /* LGTopic.h */,
+				88BD769D18129080001103EC /* LGTopic.m */,
+				88BD76A41812AA5A001103EC /* LGSubtopic.h */,
+				88BD76A51812AA5A001103EC /* LGSubtopic.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		88BD76991812888E001103EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				88BD769A181288C7001103EC /* topics.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		88BD76A71812AFC5001103EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +222,8 @@
 				88BD768618127880001103EC /* Default@2x.png in Resources */,
 				88BD768818127880001103EC /* Default-568h@2x.png in Resources */,
 				88BD768B18127880001103EC /* MainStoryboard.storyboard in Resources */,
+				88BD769B181288C7001103EC /* topics.plist in Resources */,
+				88BD76A31812A334001103EC /* 1a.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,8 +236,11 @@
 			files = (
 				88BD767E1812787F001103EC /* main.m in Sources */,
 				88BD768218127880001103EC /* LGAppDelegate.m in Sources */,
-				88BD768E18127880001103EC /* LGMasterViewController.m in Sources */,
+				88BD768E18127880001103EC /* LGTopicListViewController.m in Sources */,
 				88BD769118127880001103EC /* LGDetailViewController.m in Sources */,
+				88BD769E18129080001103EC /* LGTopic.m in Sources */,
+				88BD76A11812932C001103EC /* LGSubtopicListViewController.m in Sources */,
+				88BD76A61812AA5A001103EC /* LGSubtopic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

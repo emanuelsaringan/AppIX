@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@class LGDetailViewController;
-
-@interface LGMasterViewController : UITableViewController
-
-@property (strong, nonatomic) LGDetailViewController *detailViewController;
+@interface LGTopicListViewController : UITableViewController
 
 @end
