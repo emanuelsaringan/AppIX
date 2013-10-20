@@ -62,15 +62,16 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     LGSubtopic* subtopic = [self.objects objectAtIndex:indexPath.row];
     
-    // Get nib to display and its container
-    LGDetailViewController *detailViewController = [[LGDetailViewController alloc] initWithNibName:/*subtopic.code*/@"1a"
-                                                                                            bundle:nil];
+    // Get Detail View
     UINavigationController* detailNavController = [self.parentViewController.parentViewController.childViewControllers
                                                    lastObject];
+    LGDetailViewController* detailViewController = [[detailNavController childViewControllers] objectAtIndex:0];
     
-    // Navigate to nib
-    [detailNavController popToRootViewControllerAnimated:NO];
-    [detailNavController pushViewController:detailViewController animated:NO];
+    // Load HTML file
+    NSBundle* mainBundle = [NSBundle mainBundle];
+    NSString* htmlFile = [mainBundle pathForResource:subtopic.code ofType:@"html"];
+    NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];
+    [detailViewController.webView loadHTMLString:htmlString baseURL:[NSURL fileURLWithPath:[mainBundle bundlePath]]];
     
     // Set title
     detailViewController.navigationItem.title = subtopic.name;

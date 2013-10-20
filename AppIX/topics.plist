@@ -7,10 +7,10 @@
             <string>1</string>
             
             <key>name</key>
-            <string>Name 1</string>
+            <string>Laws of Motion</string>
             
             <key>desc</key>
-            <string>The first topic</string>
+            <string>Sir Isaac Newton's 3 Laws of Motion</string>
             
             <key>subtopics</key>
             <array>
@@ -19,7 +19,7 @@
                     <string>1a</string>
                     
                     <key>name</key>
-                    <string>Subtopic 1a</string>
+                    <string>First Law</string>
                 </dict>
                 
                 <dict>
@@ -27,7 +27,7 @@
                     <string>1b</string>
                     
                     <key>name</key>
-                    <string>Subtopic 1b</string>
+                    <string>Second Law</string>
                 </dict>
                 
                 <dict>
@@ -35,7 +35,7 @@
                     <string>1c</string>
                     
                     <key>name</key>
-                    <string>Subtopic 1c</string>
+                    <string>Third Law</string>
                 </dict>
             </array>
         </dict>
@@ -45,10 +45,10 @@
             <string>2</string>
             
             <key>name</key>
-            <string>Name 2</string>
+            <string>Friction</string>
             
             <key>desc</key>
-            <string>The second topic</string>
+            <string>The force called Friction</string>
             
             <key>subtopics</key>
             <array>
@@ -57,7 +57,7 @@
                     <string>2a</string>
                     
                     <key>name</key>
-                    <string>Subtopic 2a</string>
+                    <string>Friction</string>
                 </dict>
                 
                 <dict>
@@ -65,7 +65,7 @@
                     <string>2b</string>
                     
                     <key>name</key>
-                    <string>Subtopic 2b</string>
+                    <string>Dry Friction</string>
                 </dict>
                 
                 <dict>
@@ -73,7 +73,7 @@
                     <string>2c</string>
                     
                     <key>name</key>
-                    <string>Subtopic 2c</string>
+                    <string>Coefficient of Friction</string>
                 </dict>
             </array>
         </dict>

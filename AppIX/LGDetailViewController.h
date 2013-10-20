@@ -10,4 +10,6 @@
 
 @interface LGDetailViewController : UIViewController <UISplitViewControllerDelegate>
 
+@property (nonatomic,strong) IBOutlet UIWebView* webView;
+
 @end
