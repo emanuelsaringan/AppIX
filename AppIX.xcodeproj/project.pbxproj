@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		881B8CE91813E56100A2BBBE /* 3a.html in Resources */ = {isa = PBXBuildFile; fileRef = 881B8CE81813E56100A2BBBE /* 3a.html */; };
+		881B8CEB1813F0B100A2BBBE /* 3b.html in Resources */ = {isa = PBXBuildFile; fileRef = 881B8CEA1813F0B100A2BBBE /* 3b.html */; };
 		882660EA181379EE00239E1D /* 1a.html in Resources */ = {isa = PBXBuildFile; fileRef = 882660E9181379EE00239E1D /* 1a.html */; };
 		882660F618138D3700239E1D /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 882660F518138D3700239E1D /* bootstrap.min.css */; };
 		882660F818138ED300239E1D /* 1b.html in Resources */ = {isa = PBXBuildFile; fileRef = 882660F718138ED300239E1D /* 1b.html */; };
@@ -33,6 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		881B8CE81813E56100A2BBBE /* 3a.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 3a.html; sourceTree = "<group>"; };
+		881B8CEA1813F0B100A2BBBE /* 3b.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 3b.html; sourceTree = "<group>"; };
 		882660E9181379EE00239E1D /* 1a.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1a.html; sourceTree = "<group>"; };
 		882660F518138D3700239E1D /* bootstrap.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = bootstrap.min.css; sourceTree = "<group>"; };
 		882660F718138ED300239E1D /* 1b.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1b.html; sourceTree = "<group>"; };
@@ -91,6 +95,8 @@
 				882660FB181396D800239E1D /* 2a.html */,
 				882660FD181397CA00239E1D /* 2b.html */,
 				882660FF18139BE300239E1D /* 2c.html */,
+				881B8CE81813E56100A2BBBE /* 3a.html */,
+				881B8CEA1813F0B100A2BBBE /* 3b.html */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 				882660FC181396D800239E1D /* 2a.html in Resources */,
 				882660FE181397CA00239E1D /* 2b.html in Resources */,
 				8826610018139BE300239E1D /* 2c.html in Resources */,
+				881B8CE91813E56100A2BBBE /* 3a.html in Resources */,
+				881B8CEB1813F0B100A2BBBE /* 3b.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
