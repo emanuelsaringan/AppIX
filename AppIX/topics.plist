@@ -4,6 +4,90 @@
     <array>
         <dict>
             <key>code</key>
+            <string>0</string>
+            
+            <key>name</key>
+            <string>Introduction</string>
+            
+            <key>desc</key>
+            <string>The History of Physics</string>
+            
+            <key>subtopics</key>
+            <array>
+                <dict>
+                    <key>code</key>
+                    <string>0a</string>
+                    
+                    <key>name</key>
+                    <string>What is Physics?</string>
+                </dict>
+                
+                <dict>
+                    <key>code</key>
+                    <string>0b</string>
+                    
+                    <key>name</key>
+                    <string>SI Units</string>
+                </dict>
+                
+                <dict>
+                    <key>code</key>
+                    <string>0c</string>
+                    
+                    <key>name</key>
+                    <string>Scalars and Vectors</string>
+                </dict>
+            </array>
+        </dict>
+        
+        <dict>
+            <key>code</key>
+            <string>4</string>
+            
+            <key>name</key>
+            <string>Motion</string>
+            
+            <key>desc</key>
+            <string>Linear Motion</string>
+            
+            <key>subtopics</key>
+            <array>
+                <dict>
+                    <key>code</key>
+                    <string>4a</string>
+                    
+                    <key>name</key>
+                    <string>What is Motion?</string>
+                </dict>
+                
+                <dict>
+                    <key>code</key>
+                    <string>4b</string>
+                    
+                    <key>name</key>
+                    <string>Distance vs Displacement</string>
+                </dict>
+                
+                <dict>
+                    <key>code</key>
+                    <string>4c</string>
+                    
+                    <key>name</key>
+                    <string>Speed vs Velocity</string>
+                </dict>
+                
+                <dict>
+                    <key>code</key>
+                    <string>4d</string>
+                    
+                    <key>name</key>
+                    <string>Acceleration</string>
+                </dict>
+            </array>
+        </dict>
+        
+        <dict>
+            <key>code</key>
             <string>1</string>
             
             <key>name</key>
@@ -104,6 +188,14 @@
                     
                     <key>name</key>
                     <string>Momentum and Force</string>
+                </dict>
+                
+                <dict>
+                    <key>code</key>
+                    <string>3c</string>
+                    
+                    <key>name</key>
+                    <string>Summary</string>
                 </dict>
             </array>
         </dict>
