@@ -24,6 +24,8 @@
 		883AF9701816C1DC00DC6EA2 /* 4b.html in Resources */ = {isa = PBXBuildFile; fileRef = 883AF96F1816C1DC00DC6EA2 /* 4b.html */; };
 		883AF9721816C6A300DC6EA2 /* 4c.html in Resources */ = {isa = PBXBuildFile; fileRef = 883AF9711816C6A300DC6EA2 /* 4c.html */; };
 		883AF9741816CA1400DC6EA2 /* 4d.html in Resources */ = {isa = PBXBuildFile; fileRef = 883AF9731816CA1400DC6EA2 /* 4d.html */; };
+		883AF9761816D06600DC6EA2 /* 5a.html in Resources */ = {isa = PBXBuildFile; fileRef = 883AF9751816D06600DC6EA2 /* 5a.html */; };
+		8846377D1816DACE0074C8AE /* 6a.html in Resources */ = {isa = PBXBuildFile; fileRef = 8846377C1816DACE0074C8AE /* 6a.html */; };
 		88BD76721812787F001103EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BD76711812787F001103EC /* UIKit.framework */; };
 		88BD76741812787F001103EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BD76731812787F001103EC /* Foundation.framework */; };
 		88BD76761812787F001103EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BD76751812787F001103EC /* CoreGraphics.framework */; };
@@ -60,6 +62,8 @@
 		883AF96F1816C1DC00DC6EA2 /* 4b.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 4b.html; sourceTree = "<group>"; };
 		883AF9711816C6A300DC6EA2 /* 4c.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 4c.html; sourceTree = "<group>"; };
 		883AF9731816CA1400DC6EA2 /* 4d.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 4d.html; sourceTree = "<group>"; };
+		883AF9751816D06600DC6EA2 /* 5a.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 5a.html; sourceTree = "<group>"; };
+		8846377C1816DACE0074C8AE /* 6a.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 6a.html; sourceTree = "<group>"; };
 		88BD766E1812787F001103EC /* AppIX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppIX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BD76711812787F001103EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		88BD76731812787F001103EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -121,6 +125,8 @@
 				883AF96F1816C1DC00DC6EA2 /* 4b.html */,
 				883AF9711816C6A300DC6EA2 /* 4c.html */,
 				883AF9731816CA1400DC6EA2 /* 4d.html */,
+				883AF9751816D06600DC6EA2 /* 5a.html */,
+				8846377C1816DACE0074C8AE /* 6a.html */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -296,6 +302,8 @@
 				883AF9701816C1DC00DC6EA2 /* 4b.html in Resources */,
 				883AF9721816C6A300DC6EA2 /* 4c.html in Resources */,
 				883AF9741816CA1400DC6EA2 /* 4d.html in Resources */,
+				883AF9761816D06600DC6EA2 /* 5a.html in Resources */,
+				8846377D1816DACE0074C8AE /* 6a.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

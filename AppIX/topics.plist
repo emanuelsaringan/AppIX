@@ -199,5 +199,49 @@
                 </dict>
             </array>
         </dict>
+        
+        <dict>
+            <key>code</key>
+            <string>5</string>
+            
+            <key>name</key>
+            <string>Free Fall Acceleration</string>
+            
+            <key>desc</key>
+            <string>Free Fall</string>
+            
+            <key>subtopics</key>
+            <array>
+                <dict>
+                    <key>code</key>
+                    <string>5a</string>
+                    
+                    <key>name</key>
+                    <string>Summary</string>
+                </dict>
+            </array>
+        </dict>
+        
+        <dict>
+            <key>code</key>
+            <string>6</string>
+            
+            <key>name</key>
+            <string>Universal Gravitation</string>
+            
+            <key>desc</key>
+            <string>Law of Universal Gravitation</string>
+            
+            <key>subtopics</key>
+            <array>
+                <dict>
+                    <key>code</key>
+                    <string>6a</string>
+                    
+                    <key>name</key>
+                    <string>Law of Universal Gravitation</string>
+                </dict>
+            </array>
+        </dict>
     </array>
 </plist>
