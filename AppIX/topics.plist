@@ -126,44 +126,6 @@
         
         <dict>
             <key>code</key>
-            <string>2</string>
-            
-            <key>name</key>
-            <string>Friction</string>
-            
-            <key>desc</key>
-            <string>The force called Friction</string>
-            
-            <key>subtopics</key>
-            <array>
-                <dict>
-                    <key>code</key>
-                    <string>2a</string>
-                    
-                    <key>name</key>
-                    <string>Friction</string>
-                </dict>
-                
-                <dict>
-                    <key>code</key>
-                    <string>2b</string>
-                    
-                    <key>name</key>
-                    <string>Dry Friction</string>
-                </dict>
-                
-                <dict>
-                    <key>code</key>
-                    <string>2c</string>
-                    
-                    <key>name</key>
-                    <string>Coefficient of Friction</string>
-                </dict>
-            </array>
-        </dict>
-        
-        <dict>
-            <key>code</key>
             <string>3</string>
             
             <key>name</key>
@@ -240,6 +202,52 @@
                     
                     <key>name</key>
                     <string>Law of Universal Gravitation</string>
+                </dict>
+            </array>
+        </dict>
+        
+        <dict>
+            <key>code</key>
+            <string>6</string>
+            
+            <key>name</key>
+            <string>Videos</string>
+            
+            <key>desc</key>
+            <string>Videos from Khan Academy</string>
+            
+            <key>subtopics</key>
+            <array>
+                <dict>
+                    <key>code</key>
+                    <string>7a</string>
+                    
+                    <key>name</key>
+                    <string>Vectors and Scalars</string>
+                </dict>
+                
+                <dict>
+                    <key>code</key>
+                    <string>7b</string>
+                    
+                    <key>name</key>
+                    <string>Forces</string>
+                </dict>
+                
+                <dict>
+                    <key>code</key>
+                    <string>7e</string>
+                    
+                    <key>name</key>
+                    <string>Momentum</string>
+                </dict>
+                
+                <dict>
+                    <key>code</key>
+                    <string>7d</string>
+                    
+                    <key>name</key>
+                    <string>Gravitation</string>
                 </dict>
             </array>
         </dict>

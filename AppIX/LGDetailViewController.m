@@ -12,6 +12,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.webView loadHTMLString:@"<html><head><title>LOLS</title></head><body>Featured Articel</body></html>" baseURL:nil];
 }
 
 - (void)didReceiveMemoryWarning {

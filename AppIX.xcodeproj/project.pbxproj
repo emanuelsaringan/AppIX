@@ -13,9 +13,7 @@
 		882660F618138D3700239E1D /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 882660F518138D3700239E1D /* bootstrap.min.css */; };
 		882660F818138ED300239E1D /* 1b.html in Resources */ = {isa = PBXBuildFile; fileRef = 882660F718138ED300239E1D /* 1b.html */; };
 		882660FA181390BF00239E1D /* 1c.html in Resources */ = {isa = PBXBuildFile; fileRef = 882660F9181390BF00239E1D /* 1c.html */; };
-		882660FC181396D800239E1D /* 2a.html in Resources */ = {isa = PBXBuildFile; fileRef = 882660FB181396D800239E1D /* 2a.html */; };
-		882660FE181397CA00239E1D /* 2b.html in Resources */ = {isa = PBXBuildFile; fileRef = 882660FD181397CA00239E1D /* 2b.html */; };
-		8826610018139BE300239E1D /* 2c.html in Resources */ = {isa = PBXBuildFile; fileRef = 882660FF18139BE300239E1D /* 2c.html */; };
+		8834986518196C89001E4828 /* LGVideoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8834986418196C89001E4828 /* LGVideoListViewController.m */; };
 		883AF9661816B1EA00DC6EA2 /* 3c.html in Resources */ = {isa = PBXBuildFile; fileRef = 883AF9651816B1EA00DC6EA2 /* 3c.html */; };
 		883AF9681816B79000DC6EA2 /* 0a.html in Resources */ = {isa = PBXBuildFile; fileRef = 883AF9671816B79000DC6EA2 /* 0a.html */; };
 		883AF96A1816B98700DC6EA2 /* 0b.html in Resources */ = {isa = PBXBuildFile; fileRef = 883AF9691816B98700DC6EA2 /* 0b.html */; };
@@ -25,6 +23,9 @@
 		883AF9721816C6A300DC6EA2 /* 4c.html in Resources */ = {isa = PBXBuildFile; fileRef = 883AF9711816C6A300DC6EA2 /* 4c.html */; };
 		883AF9741816CA1400DC6EA2 /* 4d.html in Resources */ = {isa = PBXBuildFile; fileRef = 883AF9731816CA1400DC6EA2 /* 4d.html */; };
 		883AF9761816D06600DC6EA2 /* 5a.html in Resources */ = {isa = PBXBuildFile; fileRef = 883AF9751816D06600DC6EA2 /* 5a.html */; };
+		88433AE7181EBB4100ED7F77 /* LGMasterNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88433AE6181EBB4100ED7F77 /* LGMasterNavigationViewController.m */; };
+		88433AEA181EBBCE00ED7F77 /* LGDetailNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88433AE9181EBBCE00ED7F77 /* LGDetailNavigationViewController.m */; };
+		88433AEC181EC1CF00ED7F77 /* bg.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 88433AEB181EC1CF00ED7F77 /* bg.tiff */; };
 		8846377D1816DACE0074C8AE /* 6a.html in Resources */ = {isa = PBXBuildFile; fileRef = 8846377C1816DACE0074C8AE /* 6a.html */; };
 		88BD76721812787F001103EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BD76711812787F001103EC /* UIKit.framework */; };
 		88BD76741812787F001103EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BD76731812787F001103EC /* Foundation.framework */; };
@@ -51,9 +52,8 @@
 		882660F518138D3700239E1D /* bootstrap.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = bootstrap.min.css; sourceTree = "<group>"; };
 		882660F718138ED300239E1D /* 1b.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1b.html; sourceTree = "<group>"; };
 		882660F9181390BF00239E1D /* 1c.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1c.html; sourceTree = "<group>"; };
-		882660FB181396D800239E1D /* 2a.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 2a.html; sourceTree = "<group>"; };
-		882660FD181397CA00239E1D /* 2b.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 2b.html; sourceTree = "<group>"; };
-		882660FF18139BE300239E1D /* 2c.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 2c.html; sourceTree = "<group>"; };
+		8834986318196C89001E4828 /* LGVideoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGVideoListViewController.h; sourceTree = "<group>"; };
+		8834986418196C89001E4828 /* LGVideoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGVideoListViewController.m; sourceTree = "<group>"; };
 		883AF9651816B1EA00DC6EA2 /* 3c.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 3c.html; sourceTree = "<group>"; };
 		883AF9671816B79000DC6EA2 /* 0a.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 0a.html; sourceTree = "<group>"; };
 		883AF9691816B98700DC6EA2 /* 0b.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 0b.html; sourceTree = "<group>"; };
@@ -63,6 +63,11 @@
 		883AF9711816C6A300DC6EA2 /* 4c.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 4c.html; sourceTree = "<group>"; };
 		883AF9731816CA1400DC6EA2 /* 4d.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 4d.html; sourceTree = "<group>"; };
 		883AF9751816D06600DC6EA2 /* 5a.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 5a.html; sourceTree = "<group>"; };
+		88433AE5181EBB4100ED7F77 /* LGMasterNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGMasterNavigationViewController.h; sourceTree = "<group>"; };
+		88433AE6181EBB4100ED7F77 /* LGMasterNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGMasterNavigationViewController.m; sourceTree = "<group>"; };
+		88433AE8181EBBCE00ED7F77 /* LGDetailNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGDetailNavigationViewController.h; sourceTree = "<group>"; };
+		88433AE9181EBBCE00ED7F77 /* LGDetailNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGDetailNavigationViewController.m; sourceTree = "<group>"; };
+		88433AEB181EC1CF00ED7F77 /* bg.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = bg.tiff; sourceTree = "<group>"; };
 		8846377C1816DACE0074C8AE /* 6a.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 6a.html; sourceTree = "<group>"; };
 		88BD766E1812787F001103EC /* AppIX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppIX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BD76711812787F001103EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -108,13 +113,11 @@
 		882660E31813672200239E1D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				88433AED181EC1E000ED7F77 /* img */,
 				882660F418138D2C00239E1D /* css */,
 				882660E9181379EE00239E1D /* 1a.html */,
 				882660F718138ED300239E1D /* 1b.html */,
 				882660F9181390BF00239E1D /* 1c.html */,
-				882660FB181396D800239E1D /* 2a.html */,
-				882660FD181397CA00239E1D /* 2b.html */,
-				882660FF18139BE300239E1D /* 2c.html */,
 				881B8CE81813E56100A2BBBE /* 3a.html */,
 				881B8CEA1813F0B100A2BBBE /* 3b.html */,
 				883AF9651816B1EA00DC6EA2 /* 3c.html */,
@@ -137,6 +140,14 @@
 				882660F518138D3700239E1D /* bootstrap.min.css */,
 			);
 			name = css;
+			sourceTree = "<group>";
+		};
+		88433AED181EC1E000ED7F77 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				88433AEB181EC1CF00ED7F77 /* bg.tiff */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 		88BD76651812787F001103EC = {
@@ -204,6 +215,12 @@
 				88BD769018127880001103EC /* LGDetailViewController.m */,
 				88BD769F1812932C001103EC /* LGSubtopicListViewController.h */,
 				88BD76A01812932C001103EC /* LGSubtopicListViewController.m */,
+				8834986318196C89001E4828 /* LGVideoListViewController.h */,
+				8834986418196C89001E4828 /* LGVideoListViewController.m */,
+				88433AE5181EBB4100ED7F77 /* LGMasterNavigationViewController.h */,
+				88433AE6181EBB4100ED7F77 /* LGMasterNavigationViewController.m */,
+				88433AE8181EBBCE00ED7F77 /* LGDetailNavigationViewController.h */,
+				88433AE9181EBBCE00ED7F77 /* LGDetailNavigationViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -289,9 +306,6 @@
 				882660F618138D3700239E1D /* bootstrap.min.css in Resources */,
 				882660F818138ED300239E1D /* 1b.html in Resources */,
 				882660FA181390BF00239E1D /* 1c.html in Resources */,
-				882660FC181396D800239E1D /* 2a.html in Resources */,
-				882660FE181397CA00239E1D /* 2b.html in Resources */,
-				8826610018139BE300239E1D /* 2c.html in Resources */,
 				881B8CE91813E56100A2BBBE /* 3a.html in Resources */,
 				881B8CEB1813F0B100A2BBBE /* 3b.html in Resources */,
 				883AF9661816B1EA00DC6EA2 /* 3c.html in Resources */,
@@ -304,6 +318,7 @@
 				883AF9741816CA1400DC6EA2 /* 4d.html in Resources */,
 				883AF9761816D06600DC6EA2 /* 5a.html in Resources */,
 				8846377D1816DACE0074C8AE /* 6a.html in Resources */,
+				88433AEC181EC1CF00ED7F77 /* bg.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +336,9 @@
 				88BD769E18129080001103EC /* LGTopic.m in Sources */,
 				88BD76A11812932C001103EC /* LGSubtopicListViewController.m in Sources */,
 				88BD76A61812AA5A001103EC /* LGSubtopic.m in Sources */,
+				8834986518196C89001E4828 /* LGVideoListViewController.m in Sources */,
+				88433AE7181EBB4100ED7F77 /* LGMasterNavigationViewController.m in Sources */,
+				88433AEA181EBBCE00ED7F77 /* LGDetailNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
