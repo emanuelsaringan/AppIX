@@ -83,6 +83,14 @@
                     <key>name</key>
                     <string>Acceleration</string>
                 </dict>
+                
+                <dict>
+                    <key>code</key>
+                    <string>4e</string>
+                    
+                    <key>name</key>
+                    <string>Exercises</string>
+                </dict>
             </array>
         </dict>
         
@@ -120,6 +128,14 @@
                     
                     <key>name</key>
                     <string>Third Law</string>
+                </dict>
+                
+                <dict>
+                    <key>code</key>
+                    <string>1d</string>
+                    
+                    <key>name</key>
+                    <string>Exercises</string>
                 </dict>
             </array>
         </dict>
@@ -159,6 +175,14 @@
                     <key>name</key>
                     <string>Summary</string>
                 </dict>
+                
+                <dict>
+                    <key>code</key>
+                    <string>3d</string>
+                    
+                    <key>name</key>
+                    <string>Exercises</string>
+                </dict>
             </array>
         </dict>
         
@@ -181,6 +205,14 @@
                     <key>name</key>
                     <string>Summary</string>
                 </dict>
+                
+                <dict>
+                    <key>code</key>
+                    <string>5d</string>
+                    
+                    <key>name</key>
+                    <string>Exercises</string>
+                </dict>
             </array>
         </dict>
         
@@ -202,6 +234,14 @@
                     
                     <key>name</key>
                     <string>Law of Universal Gravitation</string>
+                </dict>
+                
+                <dict>
+                    <key>code</key>
+                    <string>6b</string>
+                    
+                    <key>name</key>
+                    <string>Exercises</string>
                 </dict>
             </array>
         </dict>
