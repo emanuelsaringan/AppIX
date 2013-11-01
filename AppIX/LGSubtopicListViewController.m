@@ -9,6 +9,13 @@
 #import "LGSubtopicListViewController.h"
 #import "LGDetailViewController.h"
 #import "LGSubtopic.h"
+#import "LGVideoListViewController.h"
+
+@interface LGSubtopicListViewController()
+
+@property (nonatomic,strong) LGSubtopic* subtopic;
+
+@end
 
 @implementation LGSubtopicListViewController
 
@@ -60,7 +67,12 @@
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    LGSubtopic* subtopic = [self.objects objectAtIndex:indexPath.row];
+    self.subtopic = [self.objects objectAtIndex:indexPath.row];
+    
+    if ([self.subtopic.code hasSuffix:@"-vid"]) {
+        [self performSegueWithIdentifier:@"subtopic_videos" sender:self];
+        return;
+    }
     
     // Get Detail View
     UINavigationController* detailNavController = [self.parentViewController.parentViewController.childViewControllers
@@ -69,12 +81,20 @@
     
     // Load HTML file
     NSBundle* mainBundle = [NSBundle mainBundle];
-    NSString* htmlFile = [mainBundle pathForResource:subtopic.code ofType:@"html"];
+    NSString* htmlFile = [mainBundle pathForResource:self.subtopic.code ofType:@"html"];
     NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];
     [detailViewController.webView loadHTMLString:htmlString baseURL:[NSURL fileURLWithPath:[mainBundle bundlePath]]];
     
     // Set title
-    detailViewController.navigationItem.title = subtopic.name;
+    detailViewController.navigationItem.title = self.subtopic.name;
+}
+
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([@"subtopic_videos" isEqualToString:segue.identifier]) {
+        LGVideoListViewController* videoList = segue.destinationViewController;
+        videoList.title = self.subtopic.name;
+        videoList.videoCode = self.subtopic.code;
+    }
 }
 
 @end

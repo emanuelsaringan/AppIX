@@ -12,7 +12,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.webView loadHTMLString:@"<html><head><title>LOLS</title></head><body>Featured Articel</body></html>" baseURL:nil];
+    
+    // Load trivia/featured article
+    NSBundle* mainBundle = [NSBundle mainBundle];
+    NSString* triviaFile = [mainBundle pathForResource:@"trivia" ofType:@"plist"];
+    NSArray* triviaArray = [NSArray arrayWithContentsOfFile:triviaFile];
+    NSString* trivia = triviaArray[arc4random() % [triviaArray count]];
+    
+    // Load HTML file
+    NSString* htmlFile = [mainBundle pathForResource:@"featured" ofType:@"html"];
+    NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];
+    
+    // Set template vars
+    htmlString = [htmlString stringByReplacingOccurrencesOfString:@"{{TRIVIA}}" withString:trivia];
+    [self.webView loadHTMLString:htmlString baseURL:[NSURL fileURLWithPath:[mainBundle bundlePath]]];
 }
 
 - (void)didReceiveMemoryWarning {

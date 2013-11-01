@@ -248,7 +248,7 @@
         
         <dict>
             <key>code</key>
-            <string>6</string>
+            <string>7</string>
             
             <key>name</key>
             <string>Videos</string>
@@ -260,15 +260,15 @@
             <array>
                 <dict>
                     <key>code</key>
-                    <string>7a</string>
+                    <string>7a-vid</string>
                     
                     <key>name</key>
-                    <string>Vectors and Scalars</string>
+                    <string>Linear Motion</string>
                 </dict>
                 
                 <dict>
                     <key>code</key>
-                    <string>7b</string>
+                    <string>7b-vid</string>
                     
                     <key>name</key>
                     <string>Forces</string>
@@ -276,7 +276,7 @@
                 
                 <dict>
                     <key>code</key>
-                    <string>7e</string>
+                    <string>7c-vid</string>
                     
                     <key>name</key>
                     <string>Momentum</string>
@@ -284,7 +284,7 @@
                 
                 <dict>
                     <key>code</key>
-                    <string>7d</string>
+                    <string>7d-vid</string>
                     
                     <key>name</key>
                     <string>Gravitation</string>

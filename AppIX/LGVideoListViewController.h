@@ -11,5 +11,6 @@
 @interface LGVideoListViewController : UITableViewController
 
 @property (nonatomic,strong) NSMutableArray* objects;
+@property (nonatomic,strong) NSString* videoCode;
 
 @end

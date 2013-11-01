@@ -27,7 +27,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
     NSString* bundle = [[NSBundle mainBundle] pathForResource:@"topics" ofType:@"plist"];
     NSArray* topics = [NSArray arrayWithContentsOfFile:bundle];
     NSUInteger topicsCnt = [topics count];

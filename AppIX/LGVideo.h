@@ -10,4 +10,7 @@
 
 @interface LGVideo : NSObject
 
+@property (nonatomic,strong) NSString* name;
+@property (nonatomic,strong) NSString* videoID;
+
 @end
