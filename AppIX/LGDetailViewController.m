@@ -13,18 +13,30 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Load trivia/featured article
-    NSBundle* mainBundle = [NSBundle mainBundle];
-    NSString* triviaFile = [mainBundle pathForResource:@"trivia" ofType:@"plist"];
-    NSArray* triviaArray = [NSArray arrayWithContentsOfFile:triviaFile];
-    NSString* trivia = triviaArray[arc4random() % [triviaArray count]];
-    
     // Load HTML file
+    NSBundle* mainBundle = [NSBundle mainBundle];
     NSString* htmlFile = [mainBundle pathForResource:@"featured" ofType:@"html"];
     NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];
     
-    // Set template vars
-    htmlString = [htmlString stringByReplacingOccurrencesOfString:@"{{TRIVIA}}" withString:trivia];
+    // Load trivia/featured article
+    NSString* triviaFile = [mainBundle pathForResource:@"trivia" ofType:@"plist"];
+    NSMutableArray* triviaArray = [NSMutableArray arrayWithContentsOfFile:triviaFile];
+    
+    // Fisher - Yates algorithm for shuffling
+    NSUInteger triviaArrayCnt = [triviaArray count];
+    NSUInteger startIndex = triviaArrayCnt - 1;
+    NSUInteger endIndex = startIndex - 5;
+    for (NSUInteger i = startIndex; i >= endIndex; i--) {
+        NSUInteger randIndex = arc4random() % triviaArrayCnt;
+        // Set template vars
+        NSString* patternToReplace = [NSString stringWithFormat:@"{{TRIVIA_%d}}", triviaArrayCnt - i];
+        htmlString = [htmlString stringByReplacingOccurrencesOfString:patternToReplace withString:triviaArray[randIndex]];
+        
+        NSString* temp = triviaArray[i];
+        triviaArray[i] = triviaArray[randIndex];
+        triviaArray[randIndex] = temp;
+    }
+    
     [self.webView loadHTMLString:htmlString baseURL:[NSURL fileURLWithPath:[mainBundle bundlePath]]];
 }
 
