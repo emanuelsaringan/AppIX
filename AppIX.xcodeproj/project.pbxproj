@@ -16,17 +16,11 @@
 		882E029C182339FD00A5FF9C /* 4e.html in Resources */ = {isa = PBXBuildFile; fileRef = 882E029B182339FD00A5FF9C /* 4e.html */; };
 		882E029E18233B9200A5FF9C /* 1d.html in Resources */ = {isa = PBXBuildFile; fileRef = 882E029D18233B9200A5FF9C /* 1d.html */; };
 		882E02A018233C5300A5FF9C /* 3d.html in Resources */ = {isa = PBXBuildFile; fileRef = 882E029F18233C5200A5FF9C /* 3d.html */; };
-		882E02A218233D4D00A5FF9C /* 5d.html in Resources */ = {isa = PBXBuildFile; fileRef = 882E02A118233D4D00A5FF9C /* 5d.html */; };
+		882E02A218233D4D00A5FF9C /* 5b.html in Resources */ = {isa = PBXBuildFile; fileRef = 882E02A118233D4D00A5FF9C /* 5b.html */; };
 		882E02A418233F5800A5FF9C /* 6b.html in Resources */ = {isa = PBXBuildFile; fileRef = 882E02A318233F5800A5FF9C /* 6b.html */; };
-		882E02A81823479000A5FF9C /* archimedes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 882E02A51823479000A5FF9C /* archimedes.jpg */; };
-		882E02A91823479000A5FF9C /* einstein.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 882E02A61823479000A5FF9C /* einstein.jpg */; };
-		882E02AA1823479000A5FF9C /* newton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 882E02A71823479000A5FF9C /* newton.jpg */; };
 		882E02AC18234E0400A5FF9C /* exercise.css in Resources */ = {isa = PBXBuildFile; fileRef = 882E02AB18234E0400A5FF9C /* exercise.css */; };
 		882E02B0182353A400A5FF9C /* exercise.js in Resources */ = {isa = PBXBuildFile; fileRef = 882E02AE18234EA300A5FF9C /* exercise.js */; };
 		882E02B418235D1C00A5FF9C /* third_law.png in Resources */ = {isa = PBXBuildFile; fileRef = 882E02B318235D1C00A5FF9C /* third_law.png */; };
-		882E02B818235E6200A5FF9C /* zigzag.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 882E02B518235E6200A5FF9C /* zigzag.tiff */; };
-		882E02B918235E6200A5FF9C /* straight.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 882E02B618235E6200A5FF9C /* straight.tiff */; };
-		882E02BA18235E6200A5FF9C /* triangle.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 882E02B718235E6200A5FF9C /* triangle.tiff */; };
 		882E02BC1823603800A5FF9C /* graph_vel.gif in Resources */ = {isa = PBXBuildFile; fileRef = 882E02BB1823603800A5FF9C /* graph_vel.gif */; };
 		882E02BE1823676800A5FF9C /* force_time.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 882E02BD1823676800A5FF9C /* force_time.jpg */; };
 		882E02C0182373DB00A5FF9C /* videos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 882E02BF182373DB00A5FF9C /* videos.plist */; };
@@ -67,6 +61,34 @@
 		88BD769E18129080001103EC /* LGTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BD769D18129080001103EC /* LGTopic.m */; };
 		88BD76A11812932C001103EC /* LGSubtopicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BD76A01812932C001103EC /* LGSubtopicListViewController.m */; };
 		88BD76A61812AA5A001103EC /* LGSubtopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BD76A51812AA5A001103EC /* LGSubtopic.m */; };
+		88F794651825DED500B656EA /* archimedes_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F7945B1825DED500B656EA /* archimedes_1.jpg */; };
+		88F794661825DED500B656EA /* archimedes_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F7945C1825DED500B656EA /* archimedes_2.jpg */; };
+		88F794671825DED500B656EA /* archimedes_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F7945D1825DED500B656EA /* archimedes_3.jpg */; };
+		88F794681825DED500B656EA /* archimedes_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F7945E1825DED500B656EA /* archimedes_4.jpg */; };
+		88F794691825DED500B656EA /* einstein_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F7945F1825DED500B656EA /* einstein_1.jpg */; };
+		88F7946A1825DED500B656EA /* einstein_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F794601825DED500B656EA /* einstein_2.jpg */; };
+		88F7946B1825DED500B656EA /* einstein_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F794611825DED500B656EA /* einstein_3.jpg */; };
+		88F7946C1825DED500B656EA /* newton_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F794621825DED500B656EA /* newton_1.jpg */; };
+		88F7946D1825DED500B656EA /* newton_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F794631825DED500B656EA /* newton_2.png */; };
+		88F7946E1825DED500B656EA /* newton_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F794641825DED500B656EA /* newton_3.jpg */; };
+		88F794761825E1A500B656EA /* acceleration.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88F794711825E1A500B656EA /* acceleration.gif */; };
+		88F794771825E1A500B656EA /* dog_running.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88F794721825E1A500B656EA /* dog_running.gif */; };
+		88F794781825E1A500B656EA /* linear_motion_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F794731825E1A500B656EA /* linear_motion_1.png */; };
+		88F794791825E1A500B656EA /* linear_motion_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F794741825E1A500B656EA /* linear_motion_2.png */; };
+		88F7947A1825E1A500B656EA /* man_walking.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88F794751825E1A500B656EA /* man_walking.gif */; };
+		88F794821825F06000B656EA /* cesium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F7947E1825F06000B656EA /* cesium.jpg */; };
+		88F794831825F06000B656EA /* heartbeet.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88F7947F1825F06000B656EA /* heartbeet.gif */; };
+		88F794841825F06000B656EA /* light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F794801825F06000B656EA /* light.jpg */; };
+		88F794851825F06000B656EA /* platinum_iridium_alloy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F794811825F06000B656EA /* platinum_iridium_alloy.jpg */; };
+		88F794871825F0A500B656EA /* kick_ball.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88F794861825F0A500B656EA /* kick_ball.gif */; };
+		88F7948B1825F0B700B656EA /* ball_at_rest.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F794881825F0B700B656EA /* ball_at_rest.png */; };
+		88F7948C1825F0B700B656EA /* boy_pushing_a_box.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88F794891825F0B700B656EA /* boy_pushing_a_box.gif */; };
+		88F7948D1825F0B700B656EA /* boy_pushing_a_box_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88F7948A1825F0B700B656EA /* boy_pushing_a_box_2.gif */; };
+		88F794931825F0F800B656EA /* ball_falling.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88F7948E1825F0F800B656EA /* ball_falling.gif */; };
+		88F794941825F0F800B656EA /* earth.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88F7948F1825F0F800B656EA /* earth.gif */; };
+		88F794951825F0F800B656EA /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F794901825F0F800B656EA /* earth.jpg */; };
+		88F794961825F0F800B656EA /* moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F794911825F0F800B656EA /* moon.jpg */; };
+		88F794971825F0F800B656EA /* revolution.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88F794921825F0F800B656EA /* revolution.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,17 +101,11 @@
 		882E029B182339FD00A5FF9C /* 4e.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 4e.html; sourceTree = "<group>"; };
 		882E029D18233B9200A5FF9C /* 1d.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1d.html; sourceTree = "<group>"; };
 		882E029F18233C5200A5FF9C /* 3d.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 3d.html; sourceTree = "<group>"; };
-		882E02A118233D4D00A5FF9C /* 5d.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 5d.html; sourceTree = "<group>"; };
+		882E02A118233D4D00A5FF9C /* 5b.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 5b.html; sourceTree = "<group>"; };
 		882E02A318233F5800A5FF9C /* 6b.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 6b.html; sourceTree = "<group>"; };
-		882E02A51823479000A5FF9C /* archimedes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = archimedes.jpg; sourceTree = "<group>"; };
-		882E02A61823479000A5FF9C /* einstein.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = einstein.jpg; sourceTree = "<group>"; };
-		882E02A71823479000A5FF9C /* newton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newton.jpg; sourceTree = "<group>"; };
 		882E02AB18234E0400A5FF9C /* exercise.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = exercise.css; sourceTree = "<group>"; };
 		882E02AE18234EA300A5FF9C /* exercise.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = exercise.js; sourceTree = "<group>"; };
 		882E02B318235D1C00A5FF9C /* third_law.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third_law.png; sourceTree = "<group>"; };
-		882E02B518235E6200A5FF9C /* zigzag.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = zigzag.tiff; sourceTree = "<group>"; };
-		882E02B618235E6200A5FF9C /* straight.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = straight.tiff; sourceTree = "<group>"; };
-		882E02B718235E6200A5FF9C /* triangle.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = triangle.tiff; sourceTree = "<group>"; };
 		882E02BB1823603800A5FF9C /* graph_vel.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = graph_vel.gif; sourceTree = "<group>"; };
 		882E02BD1823676800A5FF9C /* force_time.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = force_time.jpg; sourceTree = "<group>"; };
 		882E02BF182373DB00A5FF9C /* videos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = videos.plist; sourceTree = "<group>"; };
@@ -143,6 +159,34 @@
 		88BD76A01812932C001103EC /* LGSubtopicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSubtopicListViewController.m; sourceTree = "<group>"; };
 		88BD76A41812AA5A001103EC /* LGSubtopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSubtopic.h; sourceTree = "<group>"; };
 		88BD76A51812AA5A001103EC /* LGSubtopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSubtopic.m; sourceTree = "<group>"; };
+		88F7945B1825DED500B656EA /* archimedes_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = archimedes_1.jpg; sourceTree = "<group>"; };
+		88F7945C1825DED500B656EA /* archimedes_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = archimedes_2.jpg; sourceTree = "<group>"; };
+		88F7945D1825DED500B656EA /* archimedes_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = archimedes_3.jpg; sourceTree = "<group>"; };
+		88F7945E1825DED500B656EA /* archimedes_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = archimedes_4.jpg; sourceTree = "<group>"; };
+		88F7945F1825DED500B656EA /* einstein_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = einstein_1.jpg; sourceTree = "<group>"; };
+		88F794601825DED500B656EA /* einstein_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = einstein_2.jpg; sourceTree = "<group>"; };
+		88F794611825DED500B656EA /* einstein_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = einstein_3.jpg; sourceTree = "<group>"; };
+		88F794621825DED500B656EA /* newton_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newton_1.jpg; sourceTree = "<group>"; };
+		88F794631825DED500B656EA /* newton_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newton_2.png; sourceTree = "<group>"; };
+		88F794641825DED500B656EA /* newton_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newton_3.jpg; sourceTree = "<group>"; };
+		88F794711825E1A500B656EA /* acceleration.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = acceleration.gif; sourceTree = "<group>"; };
+		88F794721825E1A500B656EA /* dog_running.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dog_running.gif; sourceTree = "<group>"; };
+		88F794731825E1A500B656EA /* linear_motion_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linear_motion_1.png; sourceTree = "<group>"; };
+		88F794741825E1A500B656EA /* linear_motion_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linear_motion_2.png; sourceTree = "<group>"; };
+		88F794751825E1A500B656EA /* man_walking.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = man_walking.gif; sourceTree = "<group>"; };
+		88F7947E1825F06000B656EA /* cesium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cesium.jpg; sourceTree = "<group>"; };
+		88F7947F1825F06000B656EA /* heartbeet.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = heartbeet.gif; sourceTree = "<group>"; };
+		88F794801825F06000B656EA /* light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = light.jpg; sourceTree = "<group>"; };
+		88F794811825F06000B656EA /* platinum_iridium_alloy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = platinum_iridium_alloy.jpg; sourceTree = "<group>"; };
+		88F794861825F0A500B656EA /* kick_ball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kick_ball.gif; sourceTree = "<group>"; };
+		88F794881825F0B700B656EA /* ball_at_rest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_at_rest.png; sourceTree = "<group>"; };
+		88F794891825F0B700B656EA /* boy_pushing_a_box.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = boy_pushing_a_box.gif; sourceTree = "<group>"; };
+		88F7948A1825F0B700B656EA /* boy_pushing_a_box_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = boy_pushing_a_box_2.gif; sourceTree = "<group>"; };
+		88F7948E1825F0F800B656EA /* ball_falling.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ball_falling.gif; sourceTree = "<group>"; };
+		88F7948F1825F0F800B656EA /* earth.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = earth.gif; sourceTree = "<group>"; };
+		88F794901825F0F800B656EA /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
+		88F794911825F0F800B656EA /* moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moon.jpg; sourceTree = "<group>"; };
+		88F794921825F0F800B656EA /* revolution.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = revolution.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,7 +226,7 @@
 				883AF9731816CA1400DC6EA2 /* 4d.html */,
 				882E029B182339FD00A5FF9C /* 4e.html */,
 				883AF9751816D06600DC6EA2 /* 5a.html */,
-				882E02A118233D4D00A5FF9C /* 5d.html */,
+				882E02A118233D4D00A5FF9C /* 5b.html */,
 				8846377C1816DACE0074C8AE /* 6a.html */,
 				882E02A318233F5800A5FF9C /* 6b.html */,
 				882E02C418237C0D00A5FF9C /* video.html */,
@@ -211,16 +255,15 @@
 		88433AED181EC1E000ED7F77 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				88F7947D1825F03B00B656EA /* measurement */,
+				88F7947C1825F02C00B656EA /* laws_of_motion */,
+				88F7947B1825F01C00B656EA /* gravity */,
+				88F794701825E17500B656EA /* linear_motion */,
+				88F7946F1825E15000B656EA /* what_is_physics */,
 				882E02CE1823975400A5FF9C /* icon.png */,
 				882E02BD1823676800A5FF9C /* force_time.jpg */,
 				882E02BB1823603800A5FF9C /* graph_vel.gif */,
-				882E02B518235E6200A5FF9C /* zigzag.tiff */,
-				882E02B618235E6200A5FF9C /* straight.tiff */,
-				882E02B718235E6200A5FF9C /* triangle.tiff */,
 				882E02B318235D1C00A5FF9C /* third_law.png */,
-				882E02A51823479000A5FF9C /* archimedes.jpg */,
-				882E02A61823479000A5FF9C /* einstein.jpg */,
-				882E02A71823479000A5FF9C /* newton.jpg */,
 				88433AEB181EC1CF00ED7F77 /* bg.tiff */,
 			);
 			name = img;
@@ -326,6 +369,69 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		88F7946F1825E15000B656EA /* what_is_physics */ = {
+			isa = PBXGroup;
+			children = (
+				88F7945B1825DED500B656EA /* archimedes_1.jpg */,
+				88F7945C1825DED500B656EA /* archimedes_2.jpg */,
+				88F7945D1825DED500B656EA /* archimedes_3.jpg */,
+				88F7945E1825DED500B656EA /* archimedes_4.jpg */,
+				88F7945F1825DED500B656EA /* einstein_1.jpg */,
+				88F794601825DED500B656EA /* einstein_2.jpg */,
+				88F794611825DED500B656EA /* einstein_3.jpg */,
+				88F794621825DED500B656EA /* newton_1.jpg */,
+				88F794631825DED500B656EA /* newton_2.png */,
+				88F794641825DED500B656EA /* newton_3.jpg */,
+			);
+			name = what_is_physics;
+			sourceTree = "<group>";
+		};
+		88F794701825E17500B656EA /* linear_motion */ = {
+			isa = PBXGroup;
+			children = (
+				88F794711825E1A500B656EA /* acceleration.gif */,
+				88F794721825E1A500B656EA /* dog_running.gif */,
+				88F794731825E1A500B656EA /* linear_motion_1.png */,
+				88F794741825E1A500B656EA /* linear_motion_2.png */,
+				88F794751825E1A500B656EA /* man_walking.gif */,
+			);
+			name = linear_motion;
+			sourceTree = "<group>";
+		};
+		88F7947B1825F01C00B656EA /* gravity */ = {
+			isa = PBXGroup;
+			children = (
+				88F7948E1825F0F800B656EA /* ball_falling.gif */,
+				88F7948F1825F0F800B656EA /* earth.gif */,
+				88F794901825F0F800B656EA /* earth.jpg */,
+				88F794911825F0F800B656EA /* moon.jpg */,
+				88F794921825F0F800B656EA /* revolution.gif */,
+			);
+			name = gravity;
+			sourceTree = "<group>";
+		};
+		88F7947C1825F02C00B656EA /* laws_of_motion */ = {
+			isa = PBXGroup;
+			children = (
+				88F794881825F0B700B656EA /* ball_at_rest.png */,
+				88F794891825F0B700B656EA /* boy_pushing_a_box.gif */,
+				88F7948A1825F0B700B656EA /* boy_pushing_a_box_2.gif */,
+				88F794861825F0A500B656EA /* kick_ball.gif */,
+			);
+			name = laws_of_motion;
+			sourceTree = "<group>";
+		};
+		88F7947D1825F03B00B656EA /* measurement */ = {
+			isa = PBXGroup;
+			children = (
+				88F7947E1825F06000B656EA /* cesium.jpg */,
+				88F7947F1825F06000B656EA /* heartbeet.gif */,
+				88F794801825F06000B656EA /* light.jpg */,
+				88F794811825F06000B656EA /* platinum_iridium_alloy.jpg */,
+			);
+			name = measurement;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -405,16 +511,10 @@
 				882E029C182339FD00A5FF9C /* 4e.html in Resources */,
 				882E029E18233B9200A5FF9C /* 1d.html in Resources */,
 				882E02A018233C5300A5FF9C /* 3d.html in Resources */,
-				882E02A218233D4D00A5FF9C /* 5d.html in Resources */,
+				882E02A218233D4D00A5FF9C /* 5b.html in Resources */,
 				882E02A418233F5800A5FF9C /* 6b.html in Resources */,
-				882E02A81823479000A5FF9C /* archimedes.jpg in Resources */,
-				882E02A91823479000A5FF9C /* einstein.jpg in Resources */,
-				882E02AA1823479000A5FF9C /* newton.jpg in Resources */,
 				882E02AC18234E0400A5FF9C /* exercise.css in Resources */,
 				882E02B418235D1C00A5FF9C /* third_law.png in Resources */,
-				882E02B818235E6200A5FF9C /* zigzag.tiff in Resources */,
-				882E02B918235E6200A5FF9C /* straight.tiff in Resources */,
-				882E02BA18235E6200A5FF9C /* triangle.tiff in Resources */,
 				882E02BC1823603800A5FF9C /* graph_vel.gif in Resources */,
 				882E02BE1823676800A5FF9C /* force_time.jpg in Resources */,
 				882E02C0182373DB00A5FF9C /* videos.plist in Resources */,
@@ -424,6 +524,34 @@
 				882E02CF1823975400A5FF9C /* icon.png in Resources */,
 				882E02D1182399F300A5FF9C /* icon.png in Resources */,
 				882E02D318239A1500A5FF9C /* icon_retina.png in Resources */,
+				88F794651825DED500B656EA /* archimedes_1.jpg in Resources */,
+				88F794661825DED500B656EA /* archimedes_2.jpg in Resources */,
+				88F794671825DED500B656EA /* archimedes_3.jpg in Resources */,
+				88F794681825DED500B656EA /* archimedes_4.jpg in Resources */,
+				88F794691825DED500B656EA /* einstein_1.jpg in Resources */,
+				88F7946A1825DED500B656EA /* einstein_2.jpg in Resources */,
+				88F7946B1825DED500B656EA /* einstein_3.jpg in Resources */,
+				88F7946C1825DED500B656EA /* newton_1.jpg in Resources */,
+				88F7946D1825DED500B656EA /* newton_2.png in Resources */,
+				88F7946E1825DED500B656EA /* newton_3.jpg in Resources */,
+				88F794761825E1A500B656EA /* acceleration.gif in Resources */,
+				88F794771825E1A500B656EA /* dog_running.gif in Resources */,
+				88F794781825E1A500B656EA /* linear_motion_1.png in Resources */,
+				88F794791825E1A500B656EA /* linear_motion_2.png in Resources */,
+				88F7947A1825E1A500B656EA /* man_walking.gif in Resources */,
+				88F794821825F06000B656EA /* cesium.jpg in Resources */,
+				88F794831825F06000B656EA /* heartbeet.gif in Resources */,
+				88F794841825F06000B656EA /* light.jpg in Resources */,
+				88F794851825F06000B656EA /* platinum_iridium_alloy.jpg in Resources */,
+				88F794871825F0A500B656EA /* kick_ball.gif in Resources */,
+				88F7948B1825F0B700B656EA /* ball_at_rest.png in Resources */,
+				88F7948C1825F0B700B656EA /* boy_pushing_a_box.gif in Resources */,
+				88F7948D1825F0B700B656EA /* boy_pushing_a_box_2.gif in Resources */,
+				88F794931825F0F800B656EA /* ball_falling.gif in Resources */,
+				88F794941825F0F800B656EA /* earth.gif in Resources */,
+				88F794951825F0F800B656EA /* earth.jpg in Resources */,
+				88F794961825F0F800B656EA /* moon.jpg in Resources */,
+				88F794971825F0F800B656EA /* revolution.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
