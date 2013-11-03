@@ -10,6 +10,7 @@
 
 @interface LGDetailViewController : UIViewController <UISplitViewControllerDelegate>
 
-@property (nonatomic,strong) IBOutlet UIWebView* webView;
+@property (strong, nonatomic) id detailItem;
 
+@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end
