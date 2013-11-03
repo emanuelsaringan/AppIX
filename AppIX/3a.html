@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Momentum and Impulse</title>
+        <link rel="stylesheet" href="bootstrap.min.css"/>
+        <style type="text/css">
+          .u {
+            text-decoration: underline;
+          }
+
+          .red {
+            color: red;
+          }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Momentum and Impulse</h1>
+
+            <div class="col-md-6">
+              <h3>Momentum - why bother?</h3>
+
+              <p>
+                You have already learned one quantity based on motion:
+              </p>
+
+              <div class="text-center">
+                <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                  <mi>KE</mi>
+                  <mo>=</mo>
+                  <mfrac>
+                    <mn>1</mn>
+                    <mn>2</mn>
+                  </mfrac>
+                  <mi>m</mi>
+                  <msup>
+                    <mi>v</mi>
+                    <mn>2</mn>
+                  </msup>
+                </math>
+              </div>
+
+              <br/>
+
+              <p>
+                Kinetic energy, combined with gravitational potential energy, can help you solve many problems, and predict
+                the motions of bodies in many circumstances.
+              </p>
+
+              <p>
+                So - why bother with <span class="u">another</span> quantity based on motion? 
+              </p>
+
+              <div class="text-center">
+                <h4>COLLISIONS!</h4>
+              </div>
+
+              <p>
+                It's very important to be able to figure out what's going to happen when objects collide &hellip; and simple
+                energy methods don't work. 
+              </p>
+
+              <h3>Linear Momentum</h3>
+
+              <p>
+                Fortunately, there <span class="u">is</span> a quantity which remains the same, even when objects crumple or fold. We 
+                call it <span class="red">linear momentum: </span>
+              </p>
+
+              <div class="text-center">
+                <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                  <mi>P</mi>
+                  <mo>=</mo>
+                  <mi>m</mi>
+                  <mi>v</mi>
+                </math>
+              </div>
+
+              <br/>
+
+              <p>
+                Note that linear momentum is a <span class="u">vector</span> quantity: it has a direction, the same direction as an 
+                object's velocity. 
+              </p>
+
+              <p
+                The units of momentum,
+              </p>
+
+              <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                <mi>(mass)</mi>
+                <mi>(speed)</mi>
+                <mo>=</mo>
+                <mi>kg</mi>
+                <mo>x</mo>
+                <mfrac>
+                  <mi>m</mi>
+                  <mi>s</mi>
+                </mfrac>
+              </math>
+
+              <p>
+                do not have any special name in the SI system. 
+              </p>
+
+              <p>
+                Since velocity appears as the first power in momentum, but squared in kinetic energy, the two quantities can differ quite 
+                a bit. 
+              </p>
+            </div>
+            <div class="col-md-6">
+              <p>
+                Why does Conservation of Mechanical Energy fail? Two main reasons:
+              </p>
+
+              <ul>
+                <li>
+                  <span class="red">objects crumple, bend, break &amp; deform</span> when subjected to strong forces. These deformations 
+                  absorb energy, removing it from the
+
+                  <div class="text-center">
+                    <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                      <mi>KE</mi>
+                      <mo>+</mo>
+                      <mi>GPE</mi>
+                    </math>
+                  </div>
+
+                  terms &hellip;
+                </li>
+
+                <li>
+                  <span class="red">objects stick together</span> sometimes after they collide - that changes the mass of each, so
+
+                  <div class="text-center">
+                    <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                      <mfrac>
+                        <mn>1</mn>
+                        <mn>2</mn>
+                      </mfrac>
+                      <mi>m</mi>
+                      <msup>
+                        <mi>v</mi>
+                        <mn>2</mn>
+                      </msup>
+                    </math>
+                  </div>
+
+                  isn't simple any more. 
+                </li>
+              </ul>
+
+              <p>
+                It would be nice to find some quantity which <span class="u">is</span> conserved, even during a collision&hellip;
+              </p>
+
+              <p>
+                Ex: Consider a bullet and a baseball:
+              </p>
+
+              <div>
+                bullet: 
+                <ul>
+                  <li>m = 0.008 kg</li>
+                  <li>v = 440 <sup>m</sup>/<sub>s</sub></li>
+                </ul>
+              </div>
+              <div>
+                baseball: 
+                <ul>
+                  <li>m = 0.2 kg</li>
+                  <li>v = 40 <sup>m</sup>/<sub>s</sub></li>
+                </ul>
+              </div>
+
+              <p>
+                The bullet has more kinetic energy,
+              </p>
+
+              <ul>
+                <li>
+                  bullet: &#189;(0.008 kg)(440 <sup>m</sup>/<sub>s</sub>)<sup>2</sup> = 1549 J
+                </li>
+                <li>
+                  baseball: &#189;(0.2 kg)(40 <sup>m</sup>/<sub>s</sub>)<sup>2</sup> = 320 J
+                </li>
+              </ul>
+
+              <p>
+                but <span class="u">less</span> linear momentum:
+              </p>
+
+              <ul>
+                <li>
+                  bullet: &#189;(0.008 kg)(440 <sup>m</sup>/<sub>s</sub>) = 3.5 <sup>kg-m</sup> / <sub>s</sub>
+                </li>
+                <li>
+                  baseball: &#189;(0.2 kg)(40 <sup>m</sup>/<sub>s</sub>) = 8.0 <sup>kg-m</sup> / <sub>s</sub>
+                </li>
+              </ul>              
+            </div>
+        </div>
+    </body>
+</html>
