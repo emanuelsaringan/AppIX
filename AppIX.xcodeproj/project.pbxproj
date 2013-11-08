@@ -20,7 +20,6 @@
 		882E02A418233F5800A5FF9C /* 6b.html in Resources */ = {isa = PBXBuildFile; fileRef = 882E02A318233F5800A5FF9C /* 6b.html */; };
 		882E02AC18234E0400A5FF9C /* exercise.css in Resources */ = {isa = PBXBuildFile; fileRef = 882E02AB18234E0400A5FF9C /* exercise.css */; };
 		882E02B0182353A400A5FF9C /* exercise.js in Resources */ = {isa = PBXBuildFile; fileRef = 882E02AE18234EA300A5FF9C /* exercise.js */; };
-		882E02B418235D1C00A5FF9C /* third_law.png in Resources */ = {isa = PBXBuildFile; fileRef = 882E02B318235D1C00A5FF9C /* third_law.png */; };
 		882E02BC1823603800A5FF9C /* graph_vel.gif in Resources */ = {isa = PBXBuildFile; fileRef = 882E02BB1823603800A5FF9C /* graph_vel.gif */; };
 		882E02BE1823676800A5FF9C /* force_time.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 882E02BD1823676800A5FF9C /* force_time.jpg */; };
 		882E02C0182373DB00A5FF9C /* videos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 882E02BF182373DB00A5FF9C /* videos.plist */; };
@@ -31,6 +30,9 @@
 		882E02CF1823975400A5FF9C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 882E02CE1823975400A5FF9C /* icon.png */; };
 		882E02D1182399F300A5FF9C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 882E02D0182399F200A5FF9C /* icon.png */; };
 		882E02D318239A1500A5FF9C /* icon_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 882E02D218239A1400A5FF9C /* icon_retina.png */; };
+		88303256182D354F0096E4C5 /* third_law.png in Resources */ = {isa = PBXBuildFile; fileRef = 88303255182D354F0096E4C5 /* third_law.png */; };
+		88303258182D356A0096E4C5 /* newton_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 88303257182D356A0096E4C5 /* newton_2.png */; };
+		8830325A182D3A840096E4C5 /* straight.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 88303259182D3A840096E4C5 /* straight.tiff */; };
 		8834986518196C89001E4828 /* LGVideoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8834986418196C89001E4828 /* LGVideoListViewController.m */; };
 		883AF9661816B1EA00DC6EA2 /* 3c.html in Resources */ = {isa = PBXBuildFile; fileRef = 883AF9651816B1EA00DC6EA2 /* 3c.html */; };
 		883AF9681816B79000DC6EA2 /* 0a.html in Resources */ = {isa = PBXBuildFile; fileRef = 883AF9671816B79000DC6EA2 /* 0a.html */; };
@@ -69,7 +71,6 @@
 		88F7946A1825DED500B656EA /* einstein_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F794601825DED500B656EA /* einstein_2.jpg */; };
 		88F7946B1825DED500B656EA /* einstein_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F794611825DED500B656EA /* einstein_3.jpg */; };
 		88F7946C1825DED500B656EA /* newton_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F794621825DED500B656EA /* newton_1.jpg */; };
-		88F7946D1825DED500B656EA /* newton_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F794631825DED500B656EA /* newton_2.png */; };
 		88F7946E1825DED500B656EA /* newton_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F794641825DED500B656EA /* newton_3.jpg */; };
 		88F794761825E1A500B656EA /* acceleration.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88F794711825E1A500B656EA /* acceleration.gif */; };
 		88F794771825E1A500B656EA /* dog_running.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88F794721825E1A500B656EA /* dog_running.gif */; };
@@ -105,7 +106,6 @@
 		882E02A318233F5800A5FF9C /* 6b.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 6b.html; sourceTree = "<group>"; };
 		882E02AB18234E0400A5FF9C /* exercise.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = exercise.css; sourceTree = "<group>"; };
 		882E02AE18234EA300A5FF9C /* exercise.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = exercise.js; sourceTree = "<group>"; };
-		882E02B318235D1C00A5FF9C /* third_law.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third_law.png; sourceTree = "<group>"; };
 		882E02BB1823603800A5FF9C /* graph_vel.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = graph_vel.gif; sourceTree = "<group>"; };
 		882E02BD1823676800A5FF9C /* force_time.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = force_time.jpg; sourceTree = "<group>"; };
 		882E02BF182373DB00A5FF9C /* videos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = videos.plist; sourceTree = "<group>"; };
@@ -117,6 +117,9 @@
 		882E02CE1823975400A5FF9C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		882E02D0182399F200A5FF9C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		882E02D218239A1400A5FF9C /* icon_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_retina.png; sourceTree = "<group>"; };
+		88303255182D354F0096E4C5 /* third_law.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third_law.png; sourceTree = "<group>"; };
+		88303257182D356A0096E4C5 /* newton_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newton_2.png; sourceTree = "<group>"; };
+		88303259182D3A840096E4C5 /* straight.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = straight.tiff; sourceTree = "<group>"; };
 		8834986318196C89001E4828 /* LGVideoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGVideoListViewController.h; sourceTree = "<group>"; };
 		8834986418196C89001E4828 /* LGVideoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGVideoListViewController.m; sourceTree = "<group>"; };
 		883AF9651816B1EA00DC6EA2 /* 3c.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 3c.html; sourceTree = "<group>"; };
@@ -167,7 +170,6 @@
 		88F794601825DED500B656EA /* einstein_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = einstein_2.jpg; sourceTree = "<group>"; };
 		88F794611825DED500B656EA /* einstein_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = einstein_3.jpg; sourceTree = "<group>"; };
 		88F794621825DED500B656EA /* newton_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newton_1.jpg; sourceTree = "<group>"; };
-		88F794631825DED500B656EA /* newton_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newton_2.png; sourceTree = "<group>"; };
 		88F794641825DED500B656EA /* newton_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newton_3.jpg; sourceTree = "<group>"; };
 		88F794711825E1A500B656EA /* acceleration.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = acceleration.gif; sourceTree = "<group>"; };
 		88F794721825E1A500B656EA /* dog_running.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dog_running.gif; sourceTree = "<group>"; };
@@ -263,7 +265,6 @@
 				882E02CE1823975400A5FF9C /* icon.png */,
 				882E02BD1823676800A5FF9C /* force_time.jpg */,
 				882E02BB1823603800A5FF9C /* graph_vel.gif */,
-				882E02B318235D1C00A5FF9C /* third_law.png */,
 				88433AEB181EC1CF00ED7F77 /* bg.tiff */,
 			);
 			name = img;
@@ -372,6 +373,7 @@
 		88F7946F1825E15000B656EA /* what_is_physics */ = {
 			isa = PBXGroup;
 			children = (
+				88303257182D356A0096E4C5 /* newton_2.png */,
 				88F7945B1825DED500B656EA /* archimedes_1.jpg */,
 				88F7945C1825DED500B656EA /* archimedes_2.jpg */,
 				88F7945D1825DED500B656EA /* archimedes_3.jpg */,
@@ -380,7 +382,6 @@
 				88F794601825DED500B656EA /* einstein_2.jpg */,
 				88F794611825DED500B656EA /* einstein_3.jpg */,
 				88F794621825DED500B656EA /* newton_1.jpg */,
-				88F794631825DED500B656EA /* newton_2.png */,
 				88F794641825DED500B656EA /* newton_3.jpg */,
 			);
 			name = what_is_physics;
@@ -389,6 +390,7 @@
 		88F794701825E17500B656EA /* linear_motion */ = {
 			isa = PBXGroup;
 			children = (
+				88303259182D3A840096E4C5 /* straight.tiff */,
 				88F794711825E1A500B656EA /* acceleration.gif */,
 				88F794721825E1A500B656EA /* dog_running.gif */,
 				88F794731825E1A500B656EA /* linear_motion_1.png */,
@@ -413,6 +415,7 @@
 		88F7947C1825F02C00B656EA /* laws_of_motion */ = {
 			isa = PBXGroup;
 			children = (
+				88303255182D354F0096E4C5 /* third_law.png */,
 				88F794881825F0B700B656EA /* ball_at_rest.png */,
 				88F794891825F0B700B656EA /* boy_pushing_a_box.gif */,
 				88F7948A1825F0B700B656EA /* boy_pushing_a_box_2.gif */,
@@ -514,7 +517,6 @@
 				882E02A218233D4D00A5FF9C /* 5b.html in Resources */,
 				882E02A418233F5800A5FF9C /* 6b.html in Resources */,
 				882E02AC18234E0400A5FF9C /* exercise.css in Resources */,
-				882E02B418235D1C00A5FF9C /* third_law.png in Resources */,
 				882E02BC1823603800A5FF9C /* graph_vel.gif in Resources */,
 				882E02BE1823676800A5FF9C /* force_time.jpg in Resources */,
 				882E02C0182373DB00A5FF9C /* videos.plist in Resources */,
@@ -532,7 +534,6 @@
 				88F7946A1825DED500B656EA /* einstein_2.jpg in Resources */,
 				88F7946B1825DED500B656EA /* einstein_3.jpg in Resources */,
 				88F7946C1825DED500B656EA /* newton_1.jpg in Resources */,
-				88F7946D1825DED500B656EA /* newton_2.png in Resources */,
 				88F7946E1825DED500B656EA /* newton_3.jpg in Resources */,
 				88F794761825E1A500B656EA /* acceleration.gif in Resources */,
 				88F794771825E1A500B656EA /* dog_running.gif in Resources */,
@@ -552,6 +553,9 @@
 				88F794951825F0F800B656EA /* earth.jpg in Resources */,
 				88F794961825F0F800B656EA /* moon.jpg in Resources */,
 				88F794971825F0F800B656EA /* revolution.gif in Resources */,
+				88303256182D354F0096E4C5 /* third_law.png in Resources */,
+				88303258182D356A0096E4C5 /* newton_2.png in Resources */,
+				8830325A182D3A840096E4C5 /* straight.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
